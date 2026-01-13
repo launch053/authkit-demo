@@ -1,1 +1,0 @@
-class r extends Error{constructor(s,e,n){super(s),this.code=e,this.statusCode=n,this.name="AuthenticationError"}}class i extends Error{constructor(s,e){super(s),this.field=e,this.name="ValidationError"}}function a(t,s){return t instanceof r||t instanceof i||t instanceof Error?t.message:s}export{r as A,a as g};
